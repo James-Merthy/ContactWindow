@@ -3,23 +3,26 @@ package App;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class Screen extends JFrame {
-    private JPanel panelRight;
+    private JPanel PanelLeft;
     private JPanel panelTop;
     private JList ListPeople;
     private JButton NewButton;
     private JButton ExistingButton;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTextField textField4;
+    private JTextField textName;
+    private JTextField textEmail;
+    private JTextField textPhoneNumber;
+    private JTextField textAdresse;
     private JPanel panelMain;
-    private JPanel panelLeft;
+    private JPanel PanelRight;
+    private JTextField textDateOfBirth;
+    private JLabel LabelAge;
 
 
     private ArrayList<personne> people;
@@ -54,6 +57,16 @@ public class Screen extends JFrame {
             @Override
             public void valueChanged(ListSelectionEvent e) {
 
+                int personNumber = ListPeople.getSelectedIndex();
+                if (personNumber >= 0){
+                    personne p = people.get(personNumber);
+                    textName.setText(p.getName());
+                    textEmail.setText(p.getEmail());
+                    textPhoneNumber.setText(p.getPhoneNumber());
+                    //textAdresse.setText(p.getPhoneNumber());
+                    textDateOfBirth.setText(p.getDateOfBirth().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
+                    LabelAge.setText(Integer.toString(p.getAge())+ " years");
+                }
             }
         });
     }
