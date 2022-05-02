@@ -1,6 +1,9 @@
 package App;
 
+import java.text.DateFormat;
 import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 
 public class personne {
 
@@ -17,6 +20,14 @@ public class personne {
         this.phoneNumber = phoneNumber ;
         this.dateOfBirth = dateOfBirth;
     }
+
+    public personne(String name , String email , String phoneNumber , String dateOfBirth)  {
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber ;
+        this.setDateOfBirth(dateOfBirth);
+    }
+
 
     public String getName() {
         return name;
@@ -49,4 +60,17 @@ public class personne {
     public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+
+    public void setDateOfBirth (String dateOfBirth){
+
+        this.dateOfBirth = LocalDate.parse(dateOfBirth,DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+    }
+
+    public int getAge (){
+
+        LocalDate today = LocalDate.now();
+        Period period = Period.between(this.dateOfBirth,today);
+        return period.getYears();
+    }
+
 }
