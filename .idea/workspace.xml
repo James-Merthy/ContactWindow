@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a5253d5-f8f0-4a79-b8d7-e7438220dbef" name="Changes" comment="Creation de la classe personne1">
-      <change beforePath="$PROJECT_DIR$/src/App/personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/personne.java" afterDir="false" />
+    <list default="true" id="2a5253d5-f8f0-4a79-b8d7-e7438220dbef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App/Screen.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Screen.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Screen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Screen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App.Screen" />
+      <module name="ContactWindow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Screen" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,11 +76,19 @@
       <option name="project" value="LOCAL" />
       <updated>1651498426510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creation de la classe personne fin">
+      <created>1651499117560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651499117560</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation de la classe personne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation de la classe personne" />
+    <MESSAGE value="Creation de la classe personne fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation de la classe personne fin" />
   </component>
 </project>
