@@ -22,6 +22,8 @@ public class Screen extends JFrame {
     private JPanel PanelRight;
     private JTextField textDateOfBirth;
     private JLabel LabelAge;
+    private JLabel Title;
+    private JLabel title2;
 
 
     private ArrayList<personne> people;
@@ -123,11 +125,14 @@ public class Screen extends JFrame {
         personne Daniel = new personne("Jack Daniel's", "whisky@gmail.com", "0492526987", "24/05/1999");
         personne Jamson = new personne("Jameson Poliakov", "vodka@gmail.com", "0492426997", "24/05/1990");
         personne jonny = new personne("Jonny walker", "whiskydégueulasse@gmail.com", "0472426987", "24/05/2000");
+        personne Havanna = new personne("Havana Rhum blan ", "Jaimepaslerhumblanc@gmail.com", "0472455587", "24/11/1995");
+
 
         screen.addPerson(james);
         screen.addPerson(Daniel);
         screen.addPerson(Jamson);
         screen.addPerson(jonny);
+        screen.addPerson(Havanna);
 
 
     }
