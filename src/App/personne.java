@@ -66,6 +66,8 @@ public class personne {
         this.dateOfBirth = LocalDate.parse(dateOfBirth,DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
+
+
     public int getAge (){
 
         LocalDate today = LocalDate.now();

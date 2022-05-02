@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a5253d5-f8f0-4a79-b8d7-e7438220dbef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App/Screen.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Screen.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/personne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -83,12 +85,20 @@
       <option name="project" value="LOCAL" />
       <updated>1651499117560</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Maj 3">
+      <created>1651499805371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651499805371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation de la classe personne" />
     <MESSAGE value="Creation de la classe personne fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation de la classe personne fin" />
+    <MESSAGE value="Maj 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maj 3" />
   </component>
 </project>
